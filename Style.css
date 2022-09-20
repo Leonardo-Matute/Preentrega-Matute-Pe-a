@@ -1,0 +1,14 @@
+grid {
+    display: grid;  
+    grid-template-columns: 300px 100px; 
+
+    grid-template-rows: 40px 100px; 
+ }
+.img-logo{
+    background-color: black;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-size:x-large
+}
