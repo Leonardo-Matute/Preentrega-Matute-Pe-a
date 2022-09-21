@@ -1,14 +1,33 @@
-grid {
-    display: grid;  
-    grid-template-columns: 300px 100px; 
-
-    grid-template-rows: 40px 100px; 
- }
-.img-logo{
-    background-color: black;
-}
 .navbar-brand{
     font-family: 'Dancing Script', cursive;
     font-family: 'Mulish', sans-serif;
-    font-size:x-large
+    font-size:x-large;
+    transform: translate(10px, 4px);
+    height: 50px;
+    transition: height 2s;
+}
+.navbar-brand:hover {
+    height: 80px;
+}
+.nav-link{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mulish', sans-serif;
+    transform: translate(150px, 4px);
+}
+.Resumen-Samuel {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.row{
+    display: flexbox;
+    grid-template-columns: repeat(3, 1fr);
+}
+.col{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
 }
