@@ -20,7 +20,16 @@
     font-size: 1em;
     margin-left: 10em;
     margin-right: 10em;
+    text-align: justify;
 }
+@media (max-width: 576px) {
+    .Resumen-Samuel{
+    scroll-behavior: auto;
+    margin-left: 3em;
+    margin-right: 3em;
+    }
+    }
+      
 .row{
     display: flexbox;
     grid-template-columns: repeat(3, 1fr);
@@ -31,3 +40,12 @@
     font-family: 'Mulish', sans-serif;
     font-size: 1em;
 }
+.mb-3{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 5em;
+}
+.btn{
+    margin-top: 3em;
+}
+
